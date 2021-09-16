@@ -1,0 +1,83 @@
+{
+  "resourceType" : "Patient",
+  "identifier" : [
+    {
+      "type" : {
+        "text" : "MRN"
+      },
+      "system" : "ADT1",
+      "value" : "1001"
+    },
+    {
+      "type" : {
+        "text" : "SSN"
+      },
+      "system" : "USSSA",
+      "value" : "123456789"
+    }
+  ],
+  "name" : [
+    {
+      "use" : "usual",
+      "family" : "OHALLAHAN",
+      "given" : [
+        "COLLEEN"
+      ]
+    }
+  ],
+  "telecom" : [
+    {
+      "system" : "phone",
+      "value" : "(949) 555-1234",
+      "use" : "home"
+    },
+    {
+      "system" : "phone",
+      "value" : "(949) 555-5678",
+      "use" : "work"
+    }
+  ],
+  "gender" : "female",
+  "birthDate" : "1985-07-04",
+  "deceasedBoolean" : false,
+  "address" : [
+    {
+      "use" : "home",
+      "text" : "1200 N ELM STREET  NEWPORT BEACH CA 92660-1020 US",
+      "line" : [
+        "1200 N ELM STREET"
+      ],
+      "city" : "NEWPORT BEACH",
+      "state" : "CA",
+      "postalCode" : "92660-1020",
+      "country" : "US"
+    }
+  ],
+  "maritalStatus" : {
+    "text" : "S"
+  },
+  "multipleBirthBoolean" : false,
+  "contact" : [
+    {
+      "relationship" : [
+        {
+          "text" : "SISTER",
+          "id" : "SIS"
+        },
+        {
+          "text" : "NEXT-OF-KIN",
+          "id" : "N"
+        }
+      ],
+      "name" : {
+        "use" : "usual",
+        "family" : "O'HALLAHAN",
+        "given" : [
+          "BRITTANY",
+          "M"
+        ]
+      },
+      "gender" : "unknown"
+    }
+  ]
+}
